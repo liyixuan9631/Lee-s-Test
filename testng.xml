@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ <suite name="接口测试">
+     <!--<test verbose="2" preserve-order="true" name="E:/fighting/code/idea/java_maven_base">-->
+     <test name="test">
+         <classes>
+             <class name="com.lemon.testcase.RegisterTest"/>
+             <class name="com.lemon.testcase.LoginTest"/>
+             <class name="com.lemon.testcase.RechargeTest"/>
+             <class name="com.lemon.testcase.InvestFlowTest"/>
+             <class name="com.lemon.testcase.AddTest"/>
+        </classes>
+    </test>
+</suite>
